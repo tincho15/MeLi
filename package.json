@@ -1,0 +1,29 @@
+{
+  "name": "meli",
+  "version": "1.0.0",
+  "description": "Prueba frontend para MercadoLibre",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ./index.js localhost 3080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tincho15/MeLi.git"
+  },
+  "author": "Martin Alberti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tincho15/MeLi/issues"
+  },
+  "homepage": "https://github.com/tincho15/MeLi#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
