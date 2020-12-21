@@ -1,0 +1,28 @@
+@import '../../styles/variables'
+
+header
+    background-color: $primary
+    position: sticky
+    top: 0
+    width: 100%
+    padding: .5rem 0
+    figure
+        grid-column: 2/2
+    form
+        grid-column: 3/12
+        display: flex
+        width: 100%
+        background-color: $white
+        border-radius: 4px
+        input
+            width: 95%
+            font-size: 1.125rem
+            border: none
+            margin: .5rem
+            &:focus
+                outline: none
+        button
+            width: 5%
+            border: none
+            cursor: pointer
+            border-radius: 0px 4px 4px 0px
